@@ -1,64 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
     <title>React JS</title>
-</head>
-<body>
-    
-   <section class="centered" id="1">
-        <div class="controls">
-            <a href="#1">left</a>
-            <a href="#2">right</a>
-        </div>
-        <div>
-            <h1>ReactJS Development</h1>
-        </div>
-   </section>
-   <section class="centered" id="2">
-        <div class="controls">
-            <a href="#1">left</a>
-            <a href="#3">right</a>
-        </div>
-        <div id="2">
-            <h1>lecture 0, Javascript</h1>
-            <h2>Jai Dev</h2>
-        </div>
-   </section>
-   <section id="3">
-        <div class="controls">
-            <a href="#2">left</a>
-            <a href="#4">right</a>
-        </div>
-    <div>
-        <h1>Outline</h1>
+  </head>
+  <body>
+    <section class="centered" id="1">
+      <div class="controls">
+        <a href="#1">left</a>
+        <a href="#2">right</a>
+      </div>
+      <div>
+        <h1>ReactJS Development</h1>
+      </div>
+    </section>
+    <!--Lecture 0 -->
+    <section class="centered" id="2">
+      <div class="controls">
+        <a href="#1">left</a>
+        <a href="#3">right</a>
+      </div>
+      <div>
+        <h1>lecture 0, Front End Web Development</h1>
+        <h2>Jai Dev</h2>
+      </div>
+    </section>
+    <section id="3">
+      <div class="controls">
+        <a href="#2">left</a>
+        <a href="#4">right</a>
+      </div>
+      <div>
+        <h1>Course outline</h1>
         <ul>
-            <li>What is Javascript</li>
-            <li>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.)</li>
+          <li class="title">HTML</li>
+          <li class="title">CSS</li>
+          <li class="title">
+            Building responsive and accessible user interface
+          </li>
         </ul>
-    </div>
-    </section>  
+      </div>
+    </section>
+    <section id="4">
+      <div class="controls">
+        <a href="#3">left</a>
+        <a href="#5">right</a>
+      </div>
+      <div>
+        <h1>HTML</h1>
+        <div>
+          <div class="title">What is HTML</div>
+          <p class="content">
+            <b>HTML (HyperText Markup Language)</b> is the most basic building
+            block of the Web. It defines the meaning and structure of web
+            content."Hypertext" refers to links that connect web pages to one
+            another, either within a single website or between websites. Links
+            are a fundamental aspect of the Web. By uploading content to the
+            Internet and linking it to pages created by other people, you become
+            an active participant in the World Wide Web.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="5">
+      <div class="controls">
+        <a href="#4">left</a>
+        <a href="#6">right</a>
+      </div>
+      <div>
+        <h1>CSS</h1>
+        <div>
+          <div class="title">What is CSS</div>
+          <p class="content">
+            <b>CSS (Cascading Style Sheets)</b> is the code that styles web
+            content.Like HTML, CSS is not a programming language. It's not a
+            markup language either. CSS is a style sheet language. CSS is what
+            you use to selectively style HTML elements.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="centered" id="6">
+      <div class="controls">
+        <a href="#5">left</a>
+        <a href="#7">right</a>
+      </div>
+      <div id="2">
+        <h1>Its time to write some HTML and CSS !</h1>
+      </div>
+    </section>
+    <section id="7" class="editor">
+      <div class="controls">
+        <a href="#6">left</a>
+        <a href="#8">right</a>
+      </div>
+      <iframe
+        src="https://stackblitz.com/edit/web-platform-cagvjh?embed=1&file=index.html"
+      ></iframe>
+    </section>
+
+    <!-- Lecture 0 -->
+    <!-- <section class="centered" id="2">
+      <div class="controls">
+        <a href="#1">left</a>
+        <a href="#3">right</a>
+      </div>
+      <div id="2">
+        <h1>lecture 0, Javascript</h1>
+        <h2>Jai Dev</h2>
+      </div>
+    </section>
+    <section id="3">
+      <div class="controls">
+        <a href="#2">left</a>
+        <a href="#4">right</a>
+      </div>
+      <div>
+        <h1>Course outline</h1>
+        <div>
+          <div class="title">What is Javascript ?</div>
+          <p class="content">
+            JavaScript is a cross-platform, object-oriented scripting language
+            used to make webpages interactive (e.g., having complex animations,
+            clickable buttons, popup menus, etc.)
+          </p>
+        </div>
+      </div>
+    </section>
     <section class="centered" id="4">
-        <div class="controls">
-            <a href="#3">left</a>
-            <a href="#5">right</a>
-        </div>
-        <div id="2">
-            <h1>Its time to write some code !</h1>
-        </div>
-   </section>
-   <section id="5" class="editor">
-        <div class="controls">
-            <a href="#4">left</a>
-            <a href="#6">right</a>
-        </div>
-        <iframe src="https://stackblitz.com/edit/stackblitz-starters-fgchap?ctl=1&embed=1&file=index.js&hideExplorer=1&hideNavigation=1&view=editor"></iframe>
-   </section>
-</body>
+      <div class="controls">
+        <a href="#3">left</a>
+        <a href="#5">right</a>
+      </div>
+      <div id="2">
+        <h1>Its time to write some code !</h1>
+      </div>
+    </section>
+    <section id="5" class="editor">
+      <div class="controls">
+        <a href="#4">left</a>
+        <a href="#6">right</a>
+      </div>
+      <iframe
+        src="https://stackblitz.com/edit/stackblitz-starters-fgchap?ctl=1&embed=1&file=index.js&hideExplorer=1&hideNavigation=1&view=editor"
+      ></iframe>
+    </section> -->
+  </body>
 </html>

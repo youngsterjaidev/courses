@@ -1,13 +1,13 @@
-const express = require("express")
-const app = express()
-const port = 8080
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 8081;
 
-app.use("/", express.static("react"))
+app.use("/", express.static("react"));
 
 app.get("/test", (req, res) => {
-    res.send("Server is running !")
-})
+  res.send("Server is running !");
+});
 
-app.listen(() => {
-    console.log(`Server is running at http://localhost:${port}`)
-})
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
+});
