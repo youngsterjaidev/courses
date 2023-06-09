@@ -1,6 +1,7 @@
 :root {
   --brand-color: #000;
   --txt-color: #fff;
+  --active-color: #3dff00;
 }
 
 * {
@@ -8,7 +9,7 @@
 }
 
 b {
-  color: #3dff00;
+  color: var(--active-color);
 }
 
 h1,
@@ -43,6 +44,12 @@ a {
   color: var(--txt-color, #fff);
 }
 
+a:after {
+  content: "" attr(href) "";
+  text-decoration: underline;
+  color: var(--active-color);
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -72,6 +79,11 @@ ul li {
 
 .controls a {
   color: var(--brand-color);
+}
+
+.controls a::after {
+  content: "";
+  text-decoration: none;
 }
 
 .centered {
