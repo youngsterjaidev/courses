@@ -3,6 +3,7 @@ const app = express();
 const port = process.env.PORT || 8081;
 
 app.use("/", express.static("react"));
+app.use("/assets", express.static("assets"));
 
 app.get("/test", (req, res) => {
   res.send("Server is running !");
