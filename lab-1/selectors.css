@@ -1,0 +1,72 @@
+/* h1 {
+  color: #ddd;
+}
+
+li {
+  color: red;
+}
+
+ul > * {
+  color: green;
+}
+
+ul > li > p {
+  color: blue;
+} */
+
+/* ul > li > div > h2 > main {
+  color: yellow;
+} */
+
+/* ul main {
+  color: purple;
+} */
+
+/* ul + ol {
+  color: aqua;
+} */
+
+/* img {
+  width: 100%;
+  height: 60px;
+}*/
+
+/* li {
+  color: green;
+} */
+
+ul > li {
+  color: blue;
+}
+
+/* ul > li > div > h2 > main {
+  color: yellow;
+} */
+
+ul main {
+  color: brown;
+}
+
+body > ol {
+}
+
+ol {
+  color: chartreuse;
+}
+
+h1 + ul + ol {
+  color: burlywood;
+}
+
+h1 ~ ol {
+  color: red;
+}
+
+img {
+  width: 100%;
+  height: 600px;
+}
+
+video {
+  width: 100%;
+}

@@ -1,0 +1,233 @@
+Linux for Cloud and DevOps
+Developing Cloud Solutions using AWS
+DevOps Overview and Version Control using Git
+Continuous Integration using Jerkins
+Configuration Management using Ansible
+Containerization using Docker
+Orchestration using Kubernetes
+DevOps on Cloud
+
+
+Linux for Cloud and DevOps
+Introduction to Linux
+Linux Distribution and Shell
+Miscellaneous Linux Concepts
+Basic Linux Commands
+Advanced Linux Commands
+File System in Linux
+Package Management in Linux
+User Administration
+Group Management
+Permissions
+Linux for Cloud and
+DevOps
+Process Management
+Basics of Networking
+Addressing
+Network Protocol
+
+
+
+
+
+Developing Cloud Solutions using AWS
+Traditional Computing
+Introduction to Cloud Computing
+Service and Deployment Model
+Introduction to AWS
+Global Infrastructure and Services
+Identity and Access Management (IAM)
+IAM Roles and Policies
+IAM Best Practices
+Virtualization using EC
+ Networking Services in EC
+Storage Services in EC
+Developing Cloud Solutions
+using AWS
+Snapshots
+Networking Services in EC
+Storage Options
+S3 Overview
+Miscellaneous Topics on S3
+Storage Classes on S3
+Content Delivery Network (CDN) and Snowball
+Storage Gateway and Windows File Server
+Elastic Load Balancing
+Network Load Balancer
+Application Load Balancer
+AWS Auto Scaling
+Lifecycle of Auto Scaling
+Route 53 
+Routing Policies
+Database Services and Relational Database Services
+Different Services in Relational Database Service (RDS)
+Amazon DynamoDB
+Amazon ElasticCache
+Amazon Redshift
+Types of Networks
+Configure Virtual Private Cloud
+Address Translation (NAT) Device
+VPC Peering
+Virtual Private Network (VPN) and Direct Connect
+Cloud Monitoring Services and CloudWatch
+Amazon CloudWatch Events and Logs
+AWS CloudTrail
+Application Services: Simple Email Services (SES)
+AWS Simple Notification Services (SNS)
+Amazon Simple Queue Service (SQS)
+Amazon Simple Workflow Service (SWF) and Amazon EventBridge
+AWS Lambda
+Security
+AWS Cognito and Web Application Firewall (WAF)
+AWS Shield and AWS GuardDuty
+Data Protection and Trusted Advisor
+IT Governance
+IT Resources, Security and Billing
+Fault-Tolerant System
+High Availability
+Building Blocks of High Availability
+Disaster Recovery
+Cloud Analytics and Amazon Athena
+Amazon Elastic MapReduce (EMR)
+Amazon Kinesis
+Amazon Elasticsearch
+Amazon QuickSight and AWS Lake Formation
+AWS Cost Management and Budgets
+
+
+
+
+
+DevOps Overview and Version Control using Git
+Software Development Life Cycle (SDLC)
+Waterfall and Iterative Model
+Agile Development Model
+DevOps Overview
+Phases of DevOps
+Phases of DevOps and DevOps Tools
+DevOps Lifecycle
+Version Control System
+Git Overview
+Configuring Git
+DevOps Overview and
+Version Control using Git
+Git File Lifecycle
+Repository
+Remote Repository
+Git Buzzwords
+Git Remote Command
+Fork and Pull Request in GitHub
+Branching
+Branching Operations
+Merge Conflicts and Stashing
+Merging Strategies
+Merging, Rebasing, and Git Tag
+Git Workflow
+Git Workflow and Release Branch workflow
+Forking and Hotfix Branch Workflow
+
+
+
+
+Continuous Integration using Jenkins
+Continuous Integration
+Jenkins
+Configuring and Creating Jenkins Jobs
+Jenkins Plugin
+Global Tool Configuration and Jenkins Integration
+Build Jobs and Configuring Jenkins Job
+Parameterized Builds and Distributed Builds
+Email Notification and Securing Jenkins
+Code Coverage in Jenkins
+Validation and Reporting in Jenkins
+Continuous Integration
+using Jenkins
+Script Builds and Shell Builds in Jenkins
+Managing Jenkins
+User Management and Jenkins Logs
+Monitoring Jenkins
+Managing Plugins and Backup in Jenkins
+Remote Testing
+Continuous Deployment
+Install and Configure Tomcat
+Jenkins Build Pipeline
+Parallel Jenkins Build and Archive Generated Artifacts
+Jenkins Integration
+Scaling Jenkins
+
+
+Configuration Management using Ansible
+Configuration Management
+Deployment Using Ansible
+Ansible AD-Hoc Commands and Playbooks
+Playbook structure and Variables
+Ansible Tags and Ansible Vault
+Ansible Modules and Roles
+Inventory Management
+Ansible Roles
+Ansible Roles in Playbook and Manage Inclusion
+Jinja  Template and Ansible
+
+Containerization using Docker
+Introduction to Containerization
+Virtual Machine and Containers Classification
+Docker
+Docker Engine
+Port Binding and Docker Modes
+Docker CLI and Restart Policy
+Dockerfile
+Image Management
+Docker Registry
+Docker Compose and Orchestration in Docker
+Docker Swarm and Docker Service
+Service Placement and Docker Stack
+
+
+Orchestration using Kubernetes
+Kubernetes Concepts
+Kubernetes Commands
+Kubernetes Pods and Init Container
+Kubernetes Networking
+Pod Networking and Certificates
+Kubernetes Services and Scheduling
+Kubernetes Controllers and Self-Healing Applications
+Kubernetes Scheduling and Pod Priority
+Kubernetes Resource Limiting and Multiple Schedular
+Taints, Tolerations and Configuring Schedular
+Orchestration using
+Kubernetes
+Kubernetes Controllers
+Kubernetes Scaling and Horizontal Pod Autoscaler (HPA)
+Persistent Volumes
+Persistent Volumes Access Mode
+StatefulSets
+ConfigMaps and Secrets
+
+
+
+
+DevOps on Cloud
+
+Introduction to DevOps on Cloud
+AWS CodeBuild
+AWS CodeDeploy
+AWS CodePipeline and AWS CodeStar
+CloudFormation
+Advanced CloudFormation Concepts Part – 
+Advanced CloudFormation Concepts Part - 
+Advanced CloudFormation Concepts Part – 
+Stack
+CloudFormation Resource Deletion Policy and Troubleshoots
+DevOps on Cloud
+Container Orchestration and Elastic Container Service (ECS)
+Container Instance and Networking Modes in ECS
+Service Discovery and Task Placement
+Amazon Elastic Container Registry (ECR)
+ECS in Fargate Launch Type
+Elastic Kubernetes Service and Its Uses
+Helm Package Manager
+Application Deployment Using Beanstalk
+Docker in Elastic Beanstalk
+Deployment Options in Elastic Beanstalk
+Platform Updates and Configuration Files
+Monitoring and Troubleshooting in Elastic Beanstalk

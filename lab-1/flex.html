@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form>
+      <label>Full Name</label>
+      <input
+        type="text"
+        class="active"
+        id="elem"
+        placeholder="name"
+        name="fullname"
+      />
+      <label>Age</label>
+      <input type="number" placeholder="enter you age" />
+      <div>
+        <label>Male</label>
+        <input type="radio" name="gender" />
+      </div>
+      <label>Female</label>
+      <input type="radio" name="gender" />
+      <label>Games</label>
+      <input type="checkbox" name="games" />
+      <label>Singing</label>
+      <input type="checkbox" name="singing" />
+      <input type="file" />
+      <button type="submit">Submit</button>
+    </form>
+    <script>
+      document.querySelector("form").addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
