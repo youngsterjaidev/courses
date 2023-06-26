@@ -1,0 +1,13 @@
+.container {
+  height: 40vh;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+}
