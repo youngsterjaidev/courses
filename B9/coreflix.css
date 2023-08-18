@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.grand>nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px 160px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.grand>nav>div {
+    color: #e50914;
+    font: 24px bold;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.grand>nav>div:nth-of-type(2)>button {
+    background-color: #e50914;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    color: white;
+    font: 16px bold;
+    border-radius: 0.25rem;
+    border: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+nav {
+    font-size: 24px;
+    justify-content: space-between;
+    font-family: inherit;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    text-align: center;
+}
+
+nav button {
+    background-color: #e50914;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url(pic1.svg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.704);
+    background-blend-mode: soft-light;
+}
+
+.parent>form>input {
+    border-radius: 2px;
+    font-size: 100%;
+    padding: 1rem 12px;
+    border-radius: 6px;
+    background-clip: border-box;
+    border-style: solid;
+    border-color: #ffffff36;
+    background-color: #00000070;
+    width: 300px;
+}
+
+.parent>form>button {
+    padding: 1rem 2.5rem;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+    width: max-content;
+    cursor: pointer;
+    font-family: 16px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    border: none;
+}
+
+.parent>h1 {
+    color: #f1f5f9;
+    font-size: 48px;
+    line-height: 1;
+    margin: 0;
+    font-weight: bold;
+}
+
+.parent>h2 {
+    color: #f1f5f9;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.parent>h3 {
+    color: #f1f5f9;
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.child {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 28px 160px
+}
+
+.child>img {
+    display: flex;
+    flex-direction: row;
+    flex: content;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+.child>div:nth-of-type(1)>h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+.child>div:nth-of-type(2)>p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+.child1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 28px 160px
+}
+
+.child1>img {
+    display: flex;
+    flex-direction: row;
+    flex: content;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+.child1>div:nth-of-type(1)>h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+.child1>div:nth-of-type(2)>p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+.child2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 28px 160px
+}
+
+.child2>img {
+    display: flex;
+    flex-direction: row;
+    flex: content;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+.child2>div:nth-of-type(1)>h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+.child2>div:nth-of-type(2)>p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+
+.child3 {
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    color: white;
+    padding: 0px 10rem;
+    justify-items: center;
+}
+
+.child3>h1 {
+    font-size: inherit;
+    font-weight: inherit;
+    font: 16px;
+}
+
+.chi>form {
+    display: block;
+}
+
+.child3>form>legend {
+    font-size: 17px;
+}
+
+.child3>form>input {
+    width: 100%;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff36;
+    background-color: #00000070;
+    padding: 0.5rem 1rem;
+    height: 40px;
+}
+
+.child3>form>input::placeholder {
+    font-size: medium;
+}
+
+.child3>form>button {
+    color: white;
+    background-color: #e50914;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-style: normal;
+    font: bold;
+    border: none;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+footer {
+    color: #94a3b8;
+    padding: 20px 160px;
+}
+
+footer>div {
+    font-size: 16px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
