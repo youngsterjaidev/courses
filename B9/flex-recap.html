@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 1rem;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .parent {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        overflow-x: auto;
+      }
+
+      .parent::-webkit-scrollbar {
+        background-color: transparent;
+        height: 0px;
+      }
+
+      .parent::-webkit-scrollbar-button {
+        background-color: blue;
+        width: 0px;
+      }
+
+      .parent::-webkit-scrollbar-thumb {
+        background-color: #707070;
+      }
+
+      .parent > div {
+        flex: 1 0 300px;
+        border: 2px solid #ddd;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+    <title>Flex Recap</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+      <div>
+        <h1>Child</h1>
+        <div>Something to be here</div>
+      </div>
+    </div>
+  </body>
+</html>
