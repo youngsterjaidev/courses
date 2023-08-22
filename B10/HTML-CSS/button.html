@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <style>
       button {
         background-color: rgb(255, 72, 72);
@@ -10,6 +11,8 @@
         border-radius: 4px;
         padding: 10px 20px;
         cursor: pointer;
+        display: block;
+        font-weight: bold;
         transition: all 10s ease-in;
       }
 
@@ -17,9 +20,33 @@
         background-color: rgb(255, 46, 46);
         box-shadow: 0px 0px 6px 2px #0d0d0d69;
       }
+
+      .mylist {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .mylist > div {
+        margin: 0.5rem 1rem;
+      }
     </style>
   </head>
   <body>
-    <button type="button">Button</button>
+    <!-- <button type="button">Button</button> -->
+
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Stream</li>
+      <li>Help</li>
+    </ul>
+
+    <div class="mylist">
+      <div>Home</div>
+      <div>About</div>
+      <div>Help</div>
+    </div>
   </body>
 </html>
