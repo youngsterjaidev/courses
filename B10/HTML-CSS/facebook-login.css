@@ -55,9 +55,9 @@ form input {
   width: 100%;
 }
 
-form input:active {
+/* form input:active {
   outline: 1px solid #1877f2;
-}
+} */
 
 form input:focus {
   outline: 1px solid #1877f2;
