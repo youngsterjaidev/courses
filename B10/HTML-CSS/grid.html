@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .parent {
+        width: 100%;
+        height: 100vh;
+        border: 2px solid black;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .child {
+        background-color: #787878;
+      }
+
+      .child:nth-of-type(3) {
+        background-color: rgb(14, 102, 14);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child"><h2>Child 1</h2></div>
+      <div class="child"><h2>Child 2</h2></div>
+      <div class="child"><h2>Child 3</h2></div>
+      <div class="child"><h2>Child 4</h2></div>
+      <div class="child"><h2>Child 5</h2></div>
+      <div class="child"><h2>Child 6</h2></div>
+      <div class="child"><h2>Child 7</h2></div>
+    </div>
+  </body>
+</html>
