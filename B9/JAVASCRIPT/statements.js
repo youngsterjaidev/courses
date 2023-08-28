@@ -91,3 +91,17 @@ let num2 = 6;
 
 console.log("Welcome Team");
 console.log("Welcome Jai");
+
+if (name === "foo") {
+  console.log("Some thing executed when the condition is true");
+} else {
+  console.log("Some thing executed when the condition is false");
+}
+
+if (name === "foo") {
+  console.log("Some thing executed when the condition is true");
+} else if (name === "something") {
+  console.log("Some thing executed when the condition is false");
+} else {
+  console.log("Some thing executed when the condition is nor match");
+}
