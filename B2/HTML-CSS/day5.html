@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: green;
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+        padding: 10px;
+        margin: 0;
+      }
+
+      h1:nth-of-type(2) {
+        color: red;
+      }
+
+      p {
+        background-color: orange;
+      }
+
+      /* Selecting elements via class name */
+      .active {
+        background-color: chartreuse;
+      }
+
+      /* Selecting elements via id */
+      #one {
+        background-color: cadetblue;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+    <h1 class="active">Heading 1</h1>
+    <h1 id="one">Heading 1</h1>
+    <h1>Heading 1</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus,
+      at, ratione aspernatur odit, eos magnam dolore ipsa et vel blanditiis
+      perferendis quisquam ea quasi autem! Doloribus necessitatibus esse quod!
+    </p>
+  </body>
+</html>

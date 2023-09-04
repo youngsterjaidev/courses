@@ -10,15 +10,221 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row border border-primary">
-        <div class="col-sm-6 col-md-4 col-lg-2 bg-dark">
-          <div>Random Text</div>
+    <!-- The header of the page -->
+    <div class="container-fluid"></div>
+
+    <!-- nav -->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li>
+      <li class="nav-item dropdown">
+        <button
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Dropdown
+        </button>
+        <ul class="dropdown-menu dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="container-fluid p-0">
+      <img
+        src="https://images.pexels.com/photos/11528171/pexels-photo-11528171.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        class="img-fluid"
+        style="width: 100%"
+        alt="..."
+      />
+      <div>Prayer Hall</div>
+    </div>
+
+    <div class="grid p-5">
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+      <div class="g-col-12 g-col-md-4"><h1>Child</h1></div>
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center gap-5">
+      <div class="p-5 bg-dark">
+        <div class="card" style="width: 100%">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-5 col-lg-2 bg-dark">
-          <div>Random Text</div>
+      </div>
+      <div class="p-5 bg-dark">
+        <div class="card" style="width: 100%">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="p-5 bg-dark">
+        <div class="card" style="width: 100%">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="p-5 bg-dark">
+        <div class="card" style="width: 100%">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="p-5 bg-dark">
+        <div class="card" style="width: 100%">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="p-5 bg-dark">
+        <div class="card" style="width: 100%">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
     </div>
