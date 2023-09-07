@@ -1,0 +1,7 @@
+// 1. create an variable name "user" and it store the an object
+// user object have key "name", "address", "balance", "phone", "isVerified"
+// the name key has string value
+// the address key has another object and have keys "streetNo" "and streetName"
+// the balance key has number value
+// the phone key has number value
+// the isVerified key has boolean value
