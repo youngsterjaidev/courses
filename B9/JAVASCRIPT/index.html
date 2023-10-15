@@ -8,20 +8,31 @@
         margin: 0;
         padding: 0;
       }
+
+      .box {
+        width: 10px;
+        height: 10px;
+        background-color: blue;
+        position: fixed;
+        transition: all 0.3s ease;
+      }
     </style>
     <title>JS Demo</title>
   </head>
   <body>
+    <div class="box"></div>
     <h1>Heading 1</h1>
-    <h1 class="active">
-      <div>Jack</div>
-      <div>Jack</div>
-      <div>Jack</div>
-      <div>Jack</div>
-      <div>Jack</div>
+    <h1 class="active" blah="This is a random text">
+      <div>Div 1</div>
+      <div>Div 2</div>
+      <div>Div 3</div>
+      <div>Div 4</div>
+      <div>Div 5</div>
+      <div>Div 6</div>
     </h1>
 
     <button>I can change the H1</button>
-    <script src="async.js"></script>
+    <button>I can change the H2</button>
+    <script src="web.js"></script>
   </body>
 </html>
