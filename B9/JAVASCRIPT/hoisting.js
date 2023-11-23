@@ -77,5 +77,5 @@ function minusNumber(num1, num2) {
 let addValueIGot = addNumber(1, 5);
 let minusValueIgot = minusNumber(1, 5);
 
-console.log(addNumber(1, 5)); // 
+console.log(addNumber(1, 5)); //
 console.log(minusValueIgot);

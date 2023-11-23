@@ -1,0 +1,11 @@
+{
+  "name": "first-node-app",
+  "version": "2.0.0",
+  "description": "This is first node js appp",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

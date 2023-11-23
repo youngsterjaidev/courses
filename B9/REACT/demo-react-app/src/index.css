@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0.5rem;
+}
+
+ul {
+  padding: 0rem;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+main {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+main > * {
+  flex: 1;
+}
+
+main > section:nth-of-type(1) {
+  background: url("https://souravsajwan.com/wp-content/uploads/2023/07/Group-10738-1-1.jpg");
+  background-size: contain;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  height: 100vh;
+}
